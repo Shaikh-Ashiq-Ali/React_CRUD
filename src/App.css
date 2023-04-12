@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.ListDiv{
+  display: flex;
+  flex-direction: column;
+  gap : 40px;
+}
+
+.ListDiv td,
+.ListDiv th{
+  padding: 7px 0;
+}
